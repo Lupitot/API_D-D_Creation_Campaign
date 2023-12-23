@@ -9,6 +9,7 @@ exports.createCampagne = (req, res) => {
         pitch: req.body.pitch,
         number_of_player_recomended: req.body.number_of_player_recomended,
         importants_place: req.body.importants_place,
+        monster_list: req.body.monster_list,
         creationDate: new Date(),
         modificationDate: new Date(),
         creationUser: 'admin',

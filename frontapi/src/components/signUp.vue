@@ -1,10 +1,10 @@
 <template>
   <div>
     <form @submit.prevent="submitForm">
+      <input type="text" v-model="name" placeholder="UserName" />
       <input type="text" v-model="email" placeholder="email" />
       <input type="password" v-model="password" placeholder="Password" />
-      <button type="submit">Login</button>
-      <button @click="this.$router.push('/signupPage')">Sign Up</button>
+      <button type="submit">Sign Up</button>
     </form>
     <div v-if="isLoggedIn">
       <h2>Welcome, {{ name }}!</h2>
@@ -13,33 +13,36 @@
 </template>
 
 <script>
-import { login } from "@/services/authService";
+import { newUser } from "@/services/newUserService";
 
 export default {
-  name: "UserLogin",
+  name: "UserSingUp",
   data() {
     return {
+      name: "",
       email: "",
       password: "",
-      name: "",
       isLoggedIn: false,
     };
   },
   methods: {
     submitForm() {
-      login(this.email, this.password).then(({ token, name }) => {
-        if (!token) {
-          console.log("No token received");
-          return;
-        } else {
+      newUser(this.name, this.email, this.password).then(({ token, name }) => {
+        if (token) {
           this.isLoggedIn = true;
           this.name = name;
           console.log("Received token:", token);
           console.log("Received name:", name);
-          this.$router.push("/creationCamp");
+          this.$router.push("/creationCamp").catch((err) => {
+            console.log(err);
+          });
+        } else {
+          console.log("No token received");
         }
       });
     },
   },
 };
 </script>
+
+<style></style>

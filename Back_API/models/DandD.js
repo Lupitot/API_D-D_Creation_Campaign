@@ -7,6 +7,7 @@ const DandDSchema = mongoose.Schema({
     pitch: {type:String, required: true},
     number_of_player_recomended: {type:Number, required: false},
     importants_place: {type:Array, required: false},
+    monster_list: {type:Array, required: false},
     creationDate: {type:Date, required: true},
     modificationDate: {type:Date, required: true},
     creationUser: {type:String, required: true},

@@ -4,3 +4,18 @@
 2023-12-04T18:15:41.472Z : Erreur à la création de la campagne 
 2023-12-04T18:17:21.806Z : Erreur à la création de la campagne 
 2023-12-11T17:44:09.767Z : get introuvable
+2023-12-21T15:49:39.644Z : get introuvable
+2023-12-21T16:24:30.480Z : get introuvable
+2023-12-21T16:25:26.814Z : get introuvable
+2023-12-21T16:26:47.958Z : get658466f082aeb15bd63c9f4f introuvable
+2023-12-21T16:29:33.740Z : getAll introuvable
+2023-12-21T16:30:01.557Z : getAll introuvable
+2023-12-21T16:30:55.876Z : allCamp introuvable
+2023-12-21T16:32:24.316Z : get introuvable
+2023-12-21T17:04:57.207Z : Erreur lors de la vérification du token : JsonWebTokenError: invalid token
+2023-12-21T17:05:10.241Z : Erreur lors de la vérification du token : JsonWebTokenError: invalid token
+2023-12-21T17:06:59.946Z : Erreur lors de la vérification du token : JsonWebTokenError: invalid token
+2023-12-21T17:07:03.491Z : Erreur lors de la vérification du token : JsonWebTokenError: invalid token
+2023-12-22T14:56:26.323Z : Erreur lors de la modification de undefined
+2023-12-22T15:25:32.960Z : Erreur lors de la modification de null
+2023-12-22T23:16:36.440Z : Erreur lors de la modification de undefined

@@ -22,7 +22,10 @@ exports.createUser = (req, res) => {
 
 
             user.save().then((savedUser) => {
-                res.status(200).json({ "message": "Création de User bien réalisée", "user": savedUser });
+                if(savedUser){
+                    const token = jwt.sign({ user: user }, 'RANDOM_TOKEN_SECRET', { expiresIn: '24h' });
+                    res.status(200).json({ message: "Création de User bien réalisée", user: savedUser, token: token, email: user.email, name: user.name });
+                }
             }).catch((err) => {
                 res.status(405).json({ "message": "Erreur lors de la création de User, vérifier le body", "err": err });
             });
@@ -87,6 +90,7 @@ exports.deleteUser = (req, res) => {
         res.status(404).json({ "message": "Erreur lors de la suppression de User", "err": err });
     });
 }
+
 
 
 //"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY1NmUwN2FlZmZkMzQ1ZGNiYzExZTJjMSIsIm5hbWUiOiJwYXVsIiwiZW1haWwiOiJwYXVsLnBpYXVnZXIyQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJG95UWRMeUF0aVJDYzNhcUdMUE1aTC53YVFvdjhvVDJhWFZHNVJZRzROeFlrNmN5bktKSWhTIiwiY3JlYXRpb25EYXRlIjoiMjAyMy0xMi0wNFQxNzowOTowMi45ODNaIiwibW9kaWZpY2F0aW9uRGF0ZSI6IjIwMjMtMTItMDRUMTc6MDk6MDIuOTgzWiIsImNyZWF0aW9uVXNlciI6ImFkbWluIiwibW9kaWZpY2F0aW9uVXNlciI6ImFkbWluIiwiYWN0aXZlIjp0cnVlLCJfX3YiOjB9LCJpYXQiOjE3MDE3MTMyNjcsImV4cCI6MTcwMTc5OTY2N30.zyI9KDvWFv_cgovBpFXGyUL33ggEZFG6oriwVKWCJ_A"

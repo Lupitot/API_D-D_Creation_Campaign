@@ -8,7 +8,9 @@
             <input type="number" v-model="number_of_player_recomended" placeholder="number_of_player_recomended">
             <input type="text" v-model="importants_place" placeholder="importants_place">
             <button type="submit">Créé la Campagne</button>
+            <button v-if="isCreated" @click="this.$router.push('/addMonsterPage')">Ajouter des monstres</button>
         </form>
+
 
     </div>
 </template>
@@ -26,17 +28,17 @@ export default {
             pitch: '',
             number_of_player_recomended: '',
             importants_place: '',
+            isCreated: false,
         };
-    
-
     },
     methods: {
         
-        submitForm() {
+        submitForm(event) {
+            event.preventDefault();
             const token = localStorage.getItem('token');
             console.log('Received token:', token);
-            createCampagne(this.name_of_campagne, this.name_of_world, this.difficulty, this.pitch, this.number_of_player_recomended, this.importants_place)
-            .then(({name_of_campagne, name_of_world, difficulty, pitch, number_of_player_recomended, importants_place}) => {
+            createCampagne(this.name_of_campagne, this.name_of_world, this.difficulty, this.pitch, this.number_of_player_recomended, this.importants_place.split(','))
+            .then(({name_of_campagne, name_of_world, difficulty, pitch, number_of_player_recomended, importants_place, _id}) => {
                 this.name_of_campagne = name_of_campagne;
                 this.name_of_world = name_of_world;
                 this.difficulty = difficulty;
@@ -49,6 +51,10 @@ export default {
                 console.log('Received pitch:', pitch);
                 console.log('Received number_of_player_recomended:', number_of_player_recomended);
                 console.log('Received importants_place:', importants_place);
+                this.$store.commit('setCurrentCampId', _id);
+                console.log('Received _id:', _id);
+                localStorage.setItem('currentCampId', _id);
+                this.isCreated = true;
             });
         },
     },

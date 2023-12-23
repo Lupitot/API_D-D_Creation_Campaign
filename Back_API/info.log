@@ -25,3 +25,219 @@
 2023-12-21T13:08:43.523Z : undefined bien créé
 2023-12-21T13:15:35.129Z : paul fait une requête
 2023-12-21T13:15:35.152Z : undefined bien créé
+2023-12-21T15:49:39.641Z : paul fait une requête
+2023-12-21T15:49:39.644Z : get introuvable
+2023-12-21T16:24:30.478Z : TestMan4 fait une requête
+2023-12-21T16:24:30.480Z : get introuvable
+2023-12-21T16:25:20.015Z : TestMan4 fait une requête
+2023-12-21T16:25:20.040Z : undefined bien créé
+2023-12-21T16:25:26.813Z : TestMan4 fait une requête
+2023-12-21T16:25:26.814Z : get introuvable
+2023-12-21T16:26:47.957Z : TestMan4 fait une requête
+2023-12-21T16:26:47.958Z : get658466f082aeb15bd63c9f4f introuvable
+2023-12-21T16:27:09.506Z : TestMan4 fait une requête
+2023-12-21T16:27:09.525Z : test bien renvoyé
+2023-12-21T16:29:33.739Z : TestMan4 fait une requête
+2023-12-21T16:29:33.740Z : getAll introuvable
+2023-12-21T16:30:01.554Z : TestMan4 fait une requête
+2023-12-21T16:30:01.557Z : getAll introuvable
+2023-12-21T16:30:55.873Z : TestMan4 fait une requête
+2023-12-21T16:30:55.876Z : allCamp introuvable
+2023-12-21T16:32:24.316Z : TestMan4 fait une requête
+2023-12-21T16:32:24.316Z : get introuvable
+2023-12-21T16:35:15.112Z : TestMan4 fait une requête
+2023-12-21T16:35:15.127Z : Liste de campagne bien retournée
+2023-12-21T16:35:30.341Z : TestMan4 fait une requête
+2023-12-21T16:35:30.354Z : Exploration des enfer D'Anu (bis) bien renvoyé
+2023-12-21T17:03:36.852Z : paul fait une requête
+2023-12-21T17:03:36.881Z : Liste de campagne bien retournée
+2023-12-21T17:04:57.207Z : Erreur lors de la vérification du token : JsonWebTokenError: invalid token
+2023-12-21T17:05:10.241Z : Erreur lors de la vérification du token : JsonWebTokenError: invalid token
+2023-12-21T17:06:59.946Z : Erreur lors de la vérification du token : JsonWebTokenError: invalid token
+2023-12-21T17:07:03.491Z : Erreur lors de la vérification du token : JsonWebTokenError: invalid token
+2023-12-21T17:07:28.859Z : paul fait une requête
+2023-12-21T17:07:28.873Z : Liste de campagne bien retournée
+2023-12-21T17:07:30.418Z : paul fait une requête
+2023-12-21T17:07:30.431Z : Liste de campagne bien retournée
+2023-12-21T17:07:35.919Z : paul fait une requête
+2023-12-21T17:07:35.935Z : Liste de campagne bien retournée
+2023-12-21T17:14:04.398Z : paul fait une requête
+2023-12-21T17:14:04.409Z : Liste de campagne bien retournée
+2023-12-21T17:14:08.971Z : paul fait une requête
+2023-12-21T17:14:08.987Z : Liste de campagne bien retournée
+2023-12-21T17:14:10.820Z : paul fait une requête
+2023-12-21T17:14:10.837Z : Liste de campagne bien retournée
+2023-12-21T17:14:12.616Z : paul fait une requête
+2023-12-21T17:14:12.629Z : Liste de campagne bien retournée
+2023-12-22T11:24:04.775Z : paul fait une requête
+2023-12-22T11:24:04.796Z : Liste de campagne bien retournée
+2023-12-22T11:25:05.315Z : paul fait une requête
+2023-12-22T11:25:05.331Z : Liste de campagne bien retournée
+2023-12-22T11:25:31.082Z : paul fait une requête
+2023-12-22T11:25:31.094Z : Liste de campagne bien retournée
+2023-12-22T11:26:42.853Z : paul fait une requête
+2023-12-22T11:26:42.868Z : Liste de campagne bien retournée
+2023-12-22T11:26:43.050Z : paul fait une requête
+2023-12-22T11:26:43.072Z : Liste de campagne bien retournée
+2023-12-22T11:26:43.930Z : paul fait une requête
+2023-12-22T11:26:43.943Z : Liste de campagne bien retournée
+2023-12-22T11:26:56.469Z : paul fait une requête
+2023-12-22T11:26:56.482Z : Liste de campagne bien retournée
+2023-12-22T11:26:58.352Z : paul fait une requête
+2023-12-22T11:26:58.390Z : Liste de campagne bien retournée
+2023-12-22T11:27:09.964Z : paul fait une requête
+2023-12-22T11:27:09.978Z : Liste de campagne bien retournée
+2023-12-22T11:27:20.250Z : paul fait une requête
+2023-12-22T11:27:20.263Z : Liste de campagne bien retournée
+2023-12-22T11:27:21.467Z : paul fait une requête
+2023-12-22T11:27:21.479Z : Liste de campagne bien retournée
+2023-12-22T11:27:24.236Z : paul fait une requête
+2023-12-22T11:27:24.247Z : Liste de campagne bien retournée
+2023-12-22T11:27:42.087Z : paul fait une requête
+2023-12-22T11:27:42.100Z : Liste de campagne bien retournée
+2023-12-22T11:27:43.263Z : paul fait une requête
+2023-12-22T11:27:43.273Z : Liste de campagne bien retournée
+2023-12-22T11:28:14.755Z : paul fait une requête
+2023-12-22T11:28:14.769Z : Liste de campagne bien retournée
+2023-12-22T11:28:15.358Z : paul fait une requête
+2023-12-22T11:28:15.376Z : Liste de campagne bien retournée
+2023-12-22T11:28:20.040Z : paul fait une requête
+2023-12-22T11:28:20.052Z : Liste de campagne bien retournée
+2023-12-22T11:28:58.408Z : paul fait une requête
+2023-12-22T11:28:58.444Z : undefined bien créé
+2023-12-22T11:28:59.695Z : paul fait une requête
+2023-12-22T11:28:59.712Z : Liste de campagne bien retournée
+2023-12-22T11:29:27.281Z : paul fait une requête
+2023-12-22T11:29:27.293Z : Liste de campagne bien retournée
+2023-12-22T11:30:04.914Z : paul fait une requête
+2023-12-22T11:30:04.928Z : Liste de campagne bien retournée
+2023-12-22T11:31:02.362Z : paul fait une requête
+2023-12-22T11:31:02.385Z : undefined bien créé
+2023-12-22T11:31:03.777Z : paul fait une requête
+2023-12-22T11:31:03.796Z : Liste de campagne bien retournée
+2023-12-22T11:32:52.026Z : paul fait une requête
+2023-12-22T11:32:52.044Z : Liste de campagne bien retournée
+2023-12-22T11:33:23.162Z : paul fait une requête
+2023-12-22T11:33:23.186Z : undefined bien créé
+2023-12-22T11:35:32.283Z : paul fait une requête
+2023-12-22T11:35:32.303Z : undefined bien créé
+2023-12-22T11:38:07.755Z : paul fait une requête
+2023-12-22T11:38:07.778Z : undefined bien créé
+2023-12-22T11:38:09.007Z : paul fait une requête
+2023-12-22T11:38:09.024Z : Liste de campagne bien retournée
+2023-12-22T11:40:07.540Z : paul fait une requête
+2023-12-22T11:40:07.550Z : Liste de campagne bien retournée
+2023-12-22T12:11:50.625Z : paul fait une requête
+2023-12-22T12:11:50.651Z : undefined bien créé
+2023-12-22T14:00:04.622Z : paul fait une requête
+2023-12-22T14:00:04.660Z : undefined bien créé
+2023-12-22T14:01:02.045Z : paul fait une requête
+2023-12-22T14:01:02.066Z : undefined bien créé
+2023-12-22T14:01:47.497Z : paul fait une requête
+2023-12-22T14:01:47.517Z : undefined bien créé
+2023-12-22T14:22:26.134Z : paul fait une requête
+2023-12-22T14:22:26.175Z : undefined bien créé
+2023-12-22T14:31:36.843Z : paul fait une requête
+2023-12-22T14:31:36.879Z : undefined bien créé
+2023-12-22T14:35:39.871Z : paul fait une requête
+2023-12-22T14:35:39.896Z : 65857d06c2a7bb626005038e bien mis à jour
+2023-12-22T14:56:22.527Z : paul fait une requête
+2023-12-22T14:56:22.553Z : undefined bien créé
+2023-12-22T14:56:26.321Z : paul fait une requête
+2023-12-22T14:56:26.323Z : Erreur lors de la modification de undefined
+2023-12-22T15:16:06.553Z : paul fait une requête
+2023-12-22T15:16:06.567Z : Liste de campagne bien retournée
+2023-12-22T15:25:28.249Z : paul fait une requête
+2023-12-22T15:25:28.279Z : undefined bien créé
+2023-12-22T15:25:32.957Z : paul fait une requête
+2023-12-22T15:25:32.960Z : Erreur lors de la modification de null
+2023-12-22T23:06:29.265Z : paul fait une requête
+2023-12-22T23:06:29.296Z : undefined bien créé
+2023-12-22T23:14:46.518Z : paul fait une requête
+2023-12-22T23:14:46.543Z : undefined bien créé
+2023-12-22T23:16:17.302Z : paul fait une requête
+2023-12-22T23:16:17.323Z : undefined bien créé
+2023-12-22T23:16:36.437Z : paul fait une requête
+2023-12-22T23:16:36.440Z : Erreur lors de la modification de undefined
+2023-12-22T23:18:44.026Z : paul fait une requête
+2023-12-22T23:18:44.088Z : undefined bien créé
+2023-12-22T23:23:59.731Z : paul fait une requête
+2023-12-22T23:23:59.753Z : undefined bien créé
+2023-12-22T23:27:11.725Z : paul fait une requête
+2023-12-22T23:27:11.763Z : undefined bien créé
+2023-12-22T23:27:59.196Z : paul fait une requête
+2023-12-22T23:27:59.214Z : undefined bien créé
+2023-12-22T23:28:34.670Z : paul fait une requête
+2023-12-22T23:28:34.731Z : 65861b7fff240e14189ce9f7 bien mis à jour
+2023-12-22T23:31:02.528Z : paul fait une requête
+2023-12-22T23:31:02.550Z : undefined bien créé
+2023-12-22T23:31:06.608Z : paul fait une requête
+2023-12-22T23:31:06.626Z : 65861c36ff240e14189ce9fd bien mis à jour
+2023-12-22T23:39:50.727Z : paul fait une requête
+2023-12-22T23:39:50.746Z : undefined bien créé
+2023-12-22T23:39:57.666Z : paul fait une requête
+2023-12-22T23:39:57.681Z : 65861e46ff240e14189cea03 bien mis à jour
+2023-12-22T23:46:39.629Z : paul fait une requête
+2023-12-22T23:46:39.650Z : undefined bien créé
+2023-12-22T23:47:08.030Z : paul fait une requête
+2023-12-22T23:47:08.046Z : 65861fdfff240e14189cea09 bien mis à jour
+2023-12-22T23:50:04.307Z : paul fait une requête
+2023-12-22T23:50:04.335Z : undefined bien créé
+2023-12-22T23:50:29.272Z : paul fait une requête
+2023-12-22T23:50:29.307Z : 658620acff240e14189cea0f bien mis à jour
+2023-12-22T23:52:56.282Z : paul fait une requête
+2023-12-22T23:52:56.305Z : undefined bien créé
+2023-12-22T23:53:49.936Z : paul fait une requête
+2023-12-22T23:53:49.952Z : 65862158ff240e14189cea15 bien mis à jour
+2023-12-22T23:59:52.314Z : paul fait une requête
+2023-12-22T23:59:52.345Z : undefined bien créé
+2023-12-23T00:00:09.976Z : paul fait une requête
+2023-12-23T00:00:09.995Z : 658622f8ff240e14189cea1b bien mis à jour
+2023-12-23T00:06:58.575Z : paul fait une requête
+2023-12-23T00:06:58.595Z : undefined bien créé
+2023-12-23T00:07:27.894Z : paul fait une requête
+2023-12-23T00:07:27.912Z : 658624a2ff240e14189cea21 bien mis à jour
+2023-12-23T00:08:25.239Z : paul fait une requête
+2023-12-23T00:08:25.255Z : 658624a2ff240e14189cea21 bien mis à jour
+2023-12-23T00:08:29.216Z : paul fait une requête
+2023-12-23T00:08:29.239Z : 658624a2ff240e14189cea21 bien mis à jour
+2023-12-23T00:18:25.741Z : paul fait une requête
+2023-12-23T00:18:25.766Z : undefined bien créé
+2023-12-23T00:18:28.681Z : paul fait une requête
+2023-12-23T00:18:28.693Z : testttt bien renvoyé
+2023-12-23T00:18:28.711Z : paul fait une requête
+2023-12-23T00:18:28.727Z : 65862751ff240e14189cea2b bien mis à jour
+2023-12-23T00:18:32.316Z : paul fait une requête
+2023-12-23T00:18:32.328Z : testttt bien renvoyé
+2023-12-23T00:18:32.346Z : paul fait une requête
+2023-12-23T00:18:32.362Z : 65862751ff240e14189cea2b bien mis à jour
+2023-12-23T00:18:36.484Z : paul fait une requête
+2023-12-23T00:18:36.539Z : testttt bien renvoyé
+2023-12-23T00:18:36.554Z : paul fait une requête
+2023-12-23T00:18:36.569Z : 65862751ff240e14189cea2b bien mis à jour
+2023-12-23T00:27:02.274Z : paul fait une requête
+2023-12-23T00:27:02.301Z : undefined bien créé
+2023-12-23T00:27:05.140Z : paul fait une requête
+2023-12-23T00:27:05.151Z : test ulime ? bien renvoyé
+2023-12-23T00:27:05.168Z : paul fait une requête
+2023-12-23T00:27:05.197Z : 65862956ff240e14189cea3b bien mis à jour
+2023-12-23T00:27:08.678Z : paul fait une requête
+2023-12-23T00:27:08.689Z : test ulime ? bien renvoyé
+2023-12-23T00:27:08.707Z : paul fait une requête
+2023-12-23T00:27:08.724Z : 65862956ff240e14189cea3b bien mis à jour
+2023-12-23T00:27:11.143Z : paul fait une requête
+2023-12-23T00:27:11.154Z : test ulime ? bien renvoyé
+2023-12-23T00:27:11.171Z : paul fait une requête
+2023-12-23T00:27:11.192Z : 65862956ff240e14189cea3b bien mis à jour
+2023-12-23T00:27:14.378Z : paul fait une requête
+2023-12-23T00:27:14.389Z : test ulime ? bien renvoyé
+2023-12-23T00:27:14.407Z : paul fait une requête
+2023-12-23T00:27:14.424Z : 65862956ff240e14189cea3b bien mis à jour
+2023-12-23T00:27:16.678Z : paul fait une requête
+2023-12-23T00:27:16.689Z : test ulime ? bien renvoyé
+2023-12-23T00:27:16.707Z : paul fait une requête
+2023-12-23T00:27:16.724Z : 65862956ff240e14189cea3b bien mis à jour
+2023-12-23T00:27:22.366Z : paul fait une requête
+2023-12-23T00:27:22.377Z : test ulime ? bien renvoyé
+2023-12-23T00:27:22.395Z : paul fait une requête
+2023-12-23T00:27:22.410Z : 65862956ff240e14189cea3b bien mis à jour
