@@ -4,6 +4,7 @@ import CreationCamp from '@/page/creationCamp.vue'
 import signupPage from '@/page/signupPage.vue'
 import showCamp from '@/page/showCamp.vue'
 import addMonsterPage from '@/page/addMonsterPage.vue'
+import profilPage from '@/page/profilPage.vue'
 
 const routes = [
   { path: '/', component: UserLogin },
@@ -11,7 +12,8 @@ const routes = [
   { path: '/creationCamp', component: CreationCamp },
   { path: '/signupPage', component: signupPage },
   { path: '/showCamp', component: showCamp },
-  { path: '/addMonsterPage', component: addMonsterPage }
+  { path: '/addMonsterPage', component: addMonsterPage },
+  { path: '/profilPage', component: profilPage }
 ]
 
 const router = createRouter({
@@ -21,7 +23,7 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
   // Liste des routes qui ne nécessitent pas d'authentification
-  const publicPages = ['/login', '/signup'];
+  const publicPages = ['/login','/', '/signupPage'];
 
   // Vérifie si la route nécessite une authentification
   const authRequired = !publicPages.includes(to.path);

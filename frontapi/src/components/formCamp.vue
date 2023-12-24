@@ -36,15 +36,18 @@ export default {
         submitForm(event) {
             event.preventDefault();
             const token = localStorage.getItem('token');
+            const creator = localStorage.getItem('idUser');
             console.log('Received token:', token);
-            createCampagne(this.name_of_campagne, this.name_of_world, this.difficulty, this.pitch, this.number_of_player_recomended, this.importants_place.split(','))
-            .then(({name_of_campagne, name_of_world, difficulty, pitch, number_of_player_recomended, importants_place, _id}) => {
+            console.log('Received creator:', creator);
+            createCampagne(this.name_of_campagne, this.name_of_world, this.difficulty, this.pitch, this.number_of_player_recomended, this.importants_place.split(','), creator)
+            .then(({name_of_campagne, name_of_world, difficulty, pitch, number_of_player_recomended, importants_place, _id, creator}) => {
                 this.name_of_campagne = name_of_campagne;
                 this.name_of_world = name_of_world;
                 this.difficulty = difficulty;
                 this.pitch = pitch;
                 this.number_of_player_recomended = number_of_player_recomended;
                 this.importants_place = importants_place;
+                console.log('Received creator:', creator);
                 console.log('Received name_of_campagne:', name_of_campagne);
                 console.log('Received name_of_world:', name_of_world);
                 console.log('Received difficulty:', difficulty);

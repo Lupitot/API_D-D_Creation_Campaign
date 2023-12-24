@@ -11,6 +11,7 @@
 <script>
     import {showCamp as fetchCamps} from "../services/showService";
 
+
     export default {
         name: "ShowCamp",
         data() {

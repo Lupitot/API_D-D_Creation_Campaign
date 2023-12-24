@@ -2,6 +2,7 @@
     <div>
         <add-monster />
     </div>
+    <button @click="validateMonsters">Valider</button>
 </template>
 
 <script>
@@ -12,6 +13,19 @@ export default {
     components: {
         'add-monster': addMonster,
     },
+    methods:{
+        validateMonsters(){
+            this.$router.push('/showCamp');
+            localStorage.removeItem('currentCampId');
+            localStorage.removeItem('name_of_campagne');
+            localStorage.removeItem('name_of_world');
+            localStorage.removeItem('difficulty');
+            localStorage.removeItem('pitch');
+            localStorage.removeItem('number_of_player_recomended');
+            localStorage.removeItem('importants_place');
+            localStorage.removeItem('creator');
+        }
+    }
 }
 </script>
 

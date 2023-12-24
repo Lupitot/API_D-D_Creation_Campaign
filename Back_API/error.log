@@ -19,3 +19,8 @@
 2023-12-22T14:56:26.323Z : Erreur lors de la modification de undefined
 2023-12-22T15:25:32.960Z : Erreur lors de la modification de null
 2023-12-22T23:16:36.440Z : Erreur lors de la modification de undefined
+2023-12-23T11:30:19.686Z : Erreur lors de la vérification du token : TokenExpiredError: jwt expired
+2023-12-23T11:36:22.002Z : Erreur à la création de la campagne 
+2023-12-23T11:37:18.935Z : Erreur à la création de la campagne 
+2023-12-23T11:39:38.492Z : Erreur à la création de la campagne 
+2023-12-23T11:41:55.476Z : Erreur à la création de la campagne 

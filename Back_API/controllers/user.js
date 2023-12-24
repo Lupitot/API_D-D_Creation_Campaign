@@ -13,6 +13,7 @@ exports.createUser = (req, res) => {
                 name: req.body.name,
                 email: req.body.email,
                 password: hash,
+                
                 creationDate: new Date(),
                 modificationDate: new Date(),
                 creationUser: 'admin',  
@@ -24,7 +25,7 @@ exports.createUser = (req, res) => {
             user.save().then((savedUser) => {
                 if(savedUser){
                     const token = jwt.sign({ user: user }, 'RANDOM_TOKEN_SECRET', { expiresIn: '24h' });
-                    res.status(200).json({ message: "Création de User bien réalisée", user: savedUser, token: token, email: user.email, name: user.name });
+                    res.status(200).json({ message: "Création de User bien réalisée", user: savedUser, token: token, email: user.email, name: user.name, idUser: user._id});
                 }
             }).catch((err) => {
                 res.status(405).json({ "message": "Erreur lors de la création de User, vérifier le body", "err": err });
@@ -41,7 +42,7 @@ exports.login = (req, res) => {
                 .then((valid) => {
                     if (valid) {
                         const token = jwt.sign({ user: user }, 'RANDOM_TOKEN_SECRET', { expiresIn: '24h' });
-                        res.status(200).json({ token: token, email: user.email, name: user.name });
+                        res.status(200).json({ token: token, email: user.email, name: user.name, idUser: user._id});
                     } else {
                         res.status(401).json({ "message": "Bad credentials" });
                     }
