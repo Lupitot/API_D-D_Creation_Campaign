@@ -24,3 +24,7 @@
 2023-12-23T11:37:18.935Z : Erreur à la création de la campagne 
 2023-12-23T11:39:38.492Z : Erreur à la création de la campagne 
 2023-12-23T11:41:55.476Z : Erreur à la création de la campagne 
+2023-12-24T10:59:19.622Z : Erreur lors de la vérification du token : JsonWebTokenError: invalid token
+2023-12-24T11:05:29.120Z : Erreur lors de la vérification du token : JsonWebTokenError: invalid token
+2023-12-24T11:07:49.771Z : Erreur lors de la vérification du token : JsonWebTokenError: invalid token
+2023-12-24T11:10:55.436Z : Erreur lors de la vérification du token : JsonWebTokenError: invalid token

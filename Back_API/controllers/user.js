@@ -69,9 +69,11 @@ exports.getUser = (req, res) => {
 
 exports.updateUser = (req, res) => {
     const id = req.params.id;
-
+    console.log('id dans le back',id)
+    console.log('donnée dans le req body',req.body)
     req.body.modificationDate = new Date();
-    User.updateOne({ _id: id }, req.body).then((updatedUser) => {
+    User.findOneAndUpdate({ _id: id }, req.body, { new: true, runValidators: true, context: 'query' }).then((updatedUser) => {
+        console.log('update user depuis le back',updatedUser);
         res.status(200).json({ "message": "Modification de User bien réalisée", "user": updatedUser });
     }).catch((err) => {
         res.status(405).json({ "message": "Erreur lors de la modification de User, vérifier le body", "err": err });
