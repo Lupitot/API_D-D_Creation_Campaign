@@ -6,6 +6,11 @@
         <div>{{camp.pitch}}</div>
         <div>{{camp.number_of_player_recomended}}</div>
         <div>{{camp.importants_place}}</div>
+        <div v-for="(monster, index) in camp.monster_name" :key="monster.id">
+            <a :href="camp.monster_list[index]">
+                {{ monster }}
+            </a>
+        </div>
     </div>
 </template>
 <script>

@@ -28,3 +28,15 @@
 2023-12-24T11:05:29.120Z : Erreur lors de la vérification du token : JsonWebTokenError: invalid token
 2023-12-24T11:07:49.771Z : Erreur lors de la vérification du token : JsonWebTokenError: invalid token
 2023-12-24T11:10:55.436Z : Erreur lors de la vérification du token : JsonWebTokenError: invalid token
+2023-12-24T12:55:32.460Z : Erreur lors de la vérification du token : JsonWebTokenError: jwt must be provided
+2023-12-24T13:00:49.118Z : Erreur lors de la vérification du token : JsonWebTokenError: jwt must be provided
+2023-12-24T13:00:51.551Z : Erreur lors de la vérification du token : JsonWebTokenError: jwt must be provided
+2023-12-24T13:01:45.339Z : Erreur lors de la vérification du token : JsonWebTokenError: jwt must be provided
+2023-12-24T13:01:45.760Z : Erreur lors de la vérification du token : JsonWebTokenError: jwt must be provided
+2023-12-24T13:01:45.928Z : Erreur lors de la vérification du token : JsonWebTokenError: jwt must be provided
+2023-12-24T13:01:46.080Z : Erreur lors de la vérification du token : JsonWebTokenError: jwt must be provided
+2023-12-24T13:01:46.271Z : Erreur lors de la vérification du token : JsonWebTokenError: jwt must be provided
+2023-12-24T13:03:48.854Z : Erreur lors de la vérification du token : JsonWebTokenError: jwt must be provided
+2023-12-24T13:08:13.420Z : Erreur lors de la vérification du token : JsonWebTokenError: jwt must be provided
+2023-12-24T13:09:30.403Z : Erreur lors de la vérification du token : JsonWebTokenError: jwt must be provided
+2023-12-24T13:10:10.769Z : Erreur lors de la vérification du token : JsonWebTokenError: jwt must be provided

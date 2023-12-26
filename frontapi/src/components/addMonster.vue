@@ -33,6 +33,7 @@ export default {
   data() {
     return {
       monster: [],
+      monsterSlug: [],
       page: 1,
     };
   },
@@ -47,6 +48,8 @@ export default {
   const campId = localStorage.getItem("currentCampId");
   addMonsterToCamp(campId, monsterSlug).then((monster) => {
     this.monster = monster.data;
+    this.monsterSlug = monsterSlug;
+
     this.loadMonster();
   }
     

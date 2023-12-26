@@ -41,7 +41,7 @@ export default {
           console.log("Received token:", token);
           console.log("Received name:", name);
           localStorage.removeItem("name_of_campagne", null);
-          this.$router.push("/creationCamp");
+          this.$router.push("/showCamp");
         }
       });
     },

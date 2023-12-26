@@ -24,6 +24,8 @@ export default {
             localStorage.removeItem('number_of_player_recomended');
             localStorage.removeItem('importants_place');
             localStorage.removeItem('creator');
+            localStorage.removeItem('monsters');
+            localStorage.removeItem('campagnes');
         }
     }
 }

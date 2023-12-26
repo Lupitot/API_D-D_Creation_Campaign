@@ -4,6 +4,9 @@
     <button @click="this.$router.push('/profilPage')">
         Profil
     </button>
+    <button @click="this.$router.push('/creationCamp')">
+        Créer une campagne
+    </button>
     <div>
         les campagnes
     </div>
