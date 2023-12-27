@@ -26,6 +26,8 @@ export default {
       isLoggedIn: false,
     };
   },
+
+
   methods: {
     submitForm() {
       login(this.email, this.password).then(({ token, name, idUser }) => {
@@ -41,7 +43,8 @@ export default {
           console.log("Received token:", token);
           console.log("Received name:", name);
           localStorage.removeItem("name_of_campagne", null);
-          this.$router.push("/showCamp");
+          console.log("avant redirect")
+          this.$router.push(`/showCamp`);
         }
       });
     },

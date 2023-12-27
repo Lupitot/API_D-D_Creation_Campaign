@@ -16,6 +16,9 @@ export default {
     methods: {
         deconnexion() {
             localStorage.removeItem('token')
+            localStorage.removeItem('idUser')
+            localStorage.removeItem('name')
+            localStorage.removeItem('email')
             this.$router.push('/')
         }
     }

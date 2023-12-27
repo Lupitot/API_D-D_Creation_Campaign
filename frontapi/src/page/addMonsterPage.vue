@@ -26,6 +26,7 @@ export default {
             localStorage.removeItem('creator');
             localStorage.removeItem('monsters');
             localStorage.removeItem('campagnes');
+            localStorage.removeItem('createCamp');
         }
     }
 }

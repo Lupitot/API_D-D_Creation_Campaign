@@ -14,6 +14,10 @@
       Submit
     </button>
   </div>
+
+  <button @click="this.$router.push('/showCamp')">
+    Voir toutes les campagnes
+  </button>
 </template>
 
 <script>

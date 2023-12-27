@@ -40,3 +40,15 @@
 2023-12-24T13:08:13.420Z : Erreur lors de la vérification du token : JsonWebTokenError: jwt must be provided
 2023-12-24T13:09:30.403Z : Erreur lors de la vérification du token : JsonWebTokenError: jwt must be provided
 2023-12-24T13:10:10.769Z : Erreur lors de la vérification du token : JsonWebTokenError: jwt must be provided
+2023-12-26T20:44:50.307Z : Erreur lors de la recherche de l'utilisateur : TypeError: Cannot read properties of null (reading 'name')
+2023-12-26T20:44:58.991Z : Erreur lors de la recherche de l'utilisateur : TypeError: Cannot read properties of null (reading 'name')
+2023-12-26T20:45:01.745Z : Erreur lors de la recherche de l'utilisateur : TypeError: Cannot read properties of null (reading 'name')
+2023-12-26T20:45:41.355Z : Erreur lors de la recherche de l'utilisateur : TypeError: Cannot read properties of null (reading 'name')
+2023-12-26T20:45:42.342Z : Erreur lors de la recherche de l'utilisateur : TypeError: Cannot read properties of null (reading 'name')
+2023-12-26T20:47:04.430Z : Erreur lors de la suppression de  658b3a65416a1705679c994a
+2023-12-26T20:47:04.437Z : Erreur lors de la suppression de  658b3a65416a1705679c994a
+2023-12-26T20:47:04.437Z : Erreur lors de la suppression de  658b3a65416a1705679c994a
+2023-12-26T20:47:11.774Z : Erreur lors de la suppression de  658b0f58416a1705679c9909
+2023-12-26T20:47:11.780Z : Erreur lors de la suppression de  658b0f58416a1705679c9909
+2023-12-26T20:47:17.447Z : Erreur lors de la suppression de  658b0f6b416a1705679c9912
+2023-12-27T10:49:53.740Z : 658c0111672f04c5af15ab9c introuvable

@@ -22,18 +22,22 @@ export default {
       name: "",
       email: "",
       password: "",
+      idUser: "",
       isLoggedIn: false,
     };
   },
   methods: {
     submitForm() {
-      newUser(this.name, this.email, this.password).then(({ token, name }) => {
+      newUser(this.name, this.email, this.password).then(({ token, name, idUser }) => {
         if (token) {
           this.isLoggedIn = true;
           this.name = name;
+          localStorage.setItem("idUser", idUser);
+          localStorage.setItem("name", name);
           console.log("Received token:", token);
           console.log("Received name:", name);
-          this.$router.push("/creationCamp").catch((err) => {
+          localStorage.removeItem("name_of_campagne", null);
+          this.$router.push("/showCamp").catch((err) => {
             console.log(err);
           });
         } else {
