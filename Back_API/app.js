@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const compression = require('compression');
 const bodyParser = require('body-parser');
-import { DB } from './config/db';
+const DB = require('./config').DB;
 
 const app = express();
 app.use(compression());
