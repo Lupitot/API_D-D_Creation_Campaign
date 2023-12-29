@@ -13,7 +13,7 @@ export default function modifUser(id, data, value) {
         updateData.email = value;
     }
     console.log('updateData', updateData);
-    return axios.put(`http://localhost:3000/api/users/${id}`, updateData, {
+    return axios.put(`https://campaign-creator-dandd-back.onrender.com/api/users/${id}`, updateData, {
         headers: {
             'Authorization': token,
         }

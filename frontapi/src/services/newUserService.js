@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 export function newUser(name, email, password) {
-  return axios.post('http://localhost:3000/api/users/signup', {
+  return axios.post('https://campaign-creator-dandd-back.onrender.com/api/users/signup', {
     name,
     email,
     password,

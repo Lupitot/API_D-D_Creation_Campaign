@@ -4,7 +4,7 @@ import axios from 'axios';
 
 export default function profilCamp(idUser) {
     const token = localStorage.getItem('token');
-    return axios.get(`http://localhost:3000/api/DandD/get`, {
+    return axios.get(`https://campaign-creator-dandd-back.onrender.com/api/DandD/get`, {
         headers: {
             'Authorization': token,
         }

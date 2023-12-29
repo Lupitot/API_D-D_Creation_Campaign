@@ -3,7 +3,7 @@
 import axios from 'axios';
 
 export function getProfil(idUser) {
-    return axios.get(`http://localhost:3000/api/users/${idUser}`)
+    return axios.get(`https://campaign-creator-dandd-back.onrender.com/api/users/${idUser}`)
         .then(response => {
             console.log('response.data dans profil', response.data);
             return {

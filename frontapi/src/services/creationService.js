@@ -15,7 +15,7 @@ export function createCampagne(name_of_campagne, name_of_world, difficulty, pitc
 
     const headers = { Authorization: token };
 
-    return axios.post('http://localhost:3000/api/DandD/post', {
+    return axios.post('https://campaign-creator-dandd-back.onrender.com/api/DandD/post', {
         name_of_campagne,
         name_of_world,
         difficulty,

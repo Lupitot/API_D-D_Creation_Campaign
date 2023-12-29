@@ -8,7 +8,7 @@ export function removeMonster(campId, monsterSlug){
     console.log('token', token);
     console.log('campId', campId);
     console.log('monsterSlug', monsterSlug);
-    return axios.get(`http://localhost:3000/api/DandD/${campId}`,{
+    return axios.get(`https://campaign-creator-dandd-back.onrender.com/api/DandD/${campId}`,{
         headers: {
             'Authorization': token,
         }
@@ -23,7 +23,7 @@ export function removeMonster(campId, monsterSlug){
             currentMonsterName.splice(monsterIndex, 1);
         }
 
-        return axios.put(`http://localhost:3000/api/DandD/${campId}`, {
+        return axios.put(`https://campaign-creator-dandd-back.onrender.com/api/DandD/${campId}`, {
             monster_list: currentMonsterList,
             monster_name: currentMonsterName,
         }, {

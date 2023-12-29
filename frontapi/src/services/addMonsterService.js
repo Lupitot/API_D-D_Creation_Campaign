@@ -7,7 +7,7 @@ export function addMonster(campId, monsterSlug){
     console.log('token', token);
 
     const monsterUrl = `https://api.open5e.com/monsters/${monsterSlug}`;
-    return axios.get(`http://localhost:3000/api/DandD/${campId}`,{
+    return axios.get(`https://campaign-creator-dandd-back.onrender.com/api/DandD/${campId}`,{
         headers: {
             'Authorization': token,
         }
@@ -18,7 +18,7 @@ export function addMonster(campId, monsterSlug){
         const newMonsterList = [...currentMonsterList, monsterUrl];
         const newMonsterName = [...currentMonsterName, monsterSlug];
 
-        return axios.put(`http://localhost:3000/api/DandD/${campId}`, {
+        return axios.put(`https://campaign-creator-dandd-back.onrender.com/api/DandD/${campId}`, {
             monster_list: newMonsterList,
             monster_name: newMonsterName,
         }, {

@@ -7,7 +7,7 @@ export function modifCamp( campId ,campName, campWorldName, campDifficulty,campP
     const token = localStorage.getItem('token');
     
 
-    return axios.put(`http://localhost:3000/api/DandD/${campId}`, {
+    return axios.put(`https://campaign-creator-dandd-back.onrender.com/api/DandD/${campId}`, {
         name_of_campagne: campName,
         name_of_world: campWorldName,
         difficulty: campDifficulty,
