@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const compression = require('compression');
 const bodyParser = require('body-parser');
+import { DB } from './config/db';
 
 const app = express();
 app.use(compression());
@@ -31,9 +32,6 @@ app.use('/api/DandD/', DandDRoutes);
 app.use('/api/users/', userRoutes);
 console.log('test3');
 
-const DB_id = 'paulpiauger2';
-const DB_pw = 'X0P0504Ww0FanJsL';
-const DB = 'mongodb+srv://'+ DB_id +':' + DB_pw +'@cluster0.gygkrui.mongodb.net/';
 
 mongoose.connect(DB).then(() => {
     console.log('Connected to MongoDB with Success !');
