@@ -1,10 +1,12 @@
 <template>
-  <div>
+  <div class="contentForm">
     <form @submit.prevent="submitForm">
       <input type="text" v-model="email" placeholder="email" />
       <input type="password" v-model="password" placeholder="Password" />
-      <button type="submit">Login</button>
-      <button @click="this.$router.push('/signupPage')">Sign Up</button>
+      <div class="contentButton">
+        <button type="submit">Login</button>
+        <button @click="this.$router.push('/signupPage')">Sign Up</button>
+      </div>
     </form>
     <div v-if="isLoggedIn">
       <h2>Welcome, {{ name }}!</h2>
@@ -51,3 +53,17 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+
+.contentForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+</style>
