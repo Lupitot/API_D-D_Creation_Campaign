@@ -1,5 +1,6 @@
 <template>
-    <div v-for="camp in camps" :key="camp.id">
+    
+    <div v-for="camp in camps" :key="camp.id" class="contentOneCamp">
         <div>{{camp.name_of_campagne}}</div>
         <div>{{camp.name_of_world}}</div>
         <div>{{camp.difficulty}}</div>
@@ -39,4 +40,26 @@
     };
 </script>
 
-<style></style>
+<style>
+
+.contentOneCamp {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.templateShowCamp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: fuchsia;
+}
+
+
+</style>
