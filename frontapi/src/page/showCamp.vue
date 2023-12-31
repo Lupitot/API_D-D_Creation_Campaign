@@ -40,13 +40,12 @@ export default {
 
 <style scoped>
 .Page {
-  position: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 100vh;
-  width: 100vw;
+  height: auto;
+  width: auto;
 }
 
 .ButtonPage {
@@ -54,15 +53,14 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 13rem;
-  height: 2rem;
+
   padding: 1rem;
   top: 1rem;
   left: 1.5rem;
 }
 
 .titre {
-  position: absolute;
+    position: absolute;
   top: 1rem;
   left: 50%;
   transform: translateX(-50%);
@@ -70,7 +68,6 @@ export default {
 }
 
 .contentPage {
-  position: absolute;
   display: flex;
   overflow: hidden;
   flex-direction: column;
@@ -82,7 +79,8 @@ export default {
 }   
 
 .showAllCamp {
-  width: 90%;
+    position: absolute;
+  width: 80%;
   height: 50%;
   overflow-y: scroll;
   padding: 1.5rem;

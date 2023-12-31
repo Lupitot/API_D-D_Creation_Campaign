@@ -1,5 +1,6 @@
 <template>
   <div class="contentForm">
+    <h1>Connexion</h1>
     <form @submit.prevent="submitForm">
       <div class="contentInput">
         <input
@@ -69,18 +70,33 @@ export default {
 .contentForm {
   overflow-y: hidden;
   width: auto;
-  height: auto;
+  height: 30rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background-color: var(--var-color2);
+  border-radius: 20px;
+  position: relative;
 }
+
+h1{
+  color: var(--var-color4);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 3rem;
+}
+
 
 .contentInput{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+ 
 }
 
 .inputLog {
@@ -88,10 +104,11 @@ export default {
   height: 3.5rem;
   margin: 1rem;
   padding: 1rem;
+  
   border-radius: 20px;
   box-direction: none;
   border: 1px solid rgba(88, 88, 88, 0.901);
-  box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 2px 0px var(--var-color2);
 }
 
 input:focus {

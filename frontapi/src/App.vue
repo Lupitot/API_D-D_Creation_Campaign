@@ -21,6 +21,16 @@ export default {
   box-sizing: border-box;
 }
 
+
+
+
+:root {
+  --var-color1: #064ACB;
+  --var-color2: #366ED8;
+  --var-color3: #F3A953;
+  --var-color4: #F2F3F3;
+}
+
 html {
   height: 100%;
   width : 100vw;
