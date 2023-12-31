@@ -9,6 +9,7 @@ module.exports = function historyModeMiddleware(staticFolder) {
       next();
     } else {
       // Sinon, renvoyez l'index.html
+      console.log(path.resolve(__dirname, '../frontapi/dist'));
       res.sendFile(path.resolve(staticFolder, 'index.html'));
     }
   };
