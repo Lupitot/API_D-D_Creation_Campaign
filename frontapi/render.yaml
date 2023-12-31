@@ -3,7 +3,7 @@ services:
   name: Front_Campaign_DandD_
   env: static
   buildCommand: npm run build
-  staticPublishPath: /dist
+  staticPublishPath: dist
   routes:
   - type: rewrite
     source: /*
