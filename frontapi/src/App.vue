@@ -27,16 +27,18 @@ export default {
 :root {
   --var-color1: #064ACB;
   --var-color2: #366ED8;
-  --var-color3: #F3A953;
+  --var-color3: #F05454;
   --var-color4: #F2F3F3;
 }
 
-html {
-  height: 100%;
-  width : 100vw;
+body {
+  height: 100vh;
+  width : 100%;
   display: flex;
   align-items: center;
   justify-content: center; 
+  background-color: #4d84ecb3;
+  overflow-x:hidden ;
 }
 
 

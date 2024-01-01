@@ -67,14 +67,6 @@ const routes = [
   {
     path: '/addMonsterPage',
     component: addMonsterPage,
-    beforeEnter: (to, from, next) => {
-      localStorage.getItem('createCamp');
-      if (!localStorage.getItem('createCamp')) {
-        next(false);
-      } else {
-        next();
-      }
-    }
 
   },
   {

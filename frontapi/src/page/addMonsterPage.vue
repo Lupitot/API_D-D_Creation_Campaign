@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="contentAddMonster">
         <add-monster />
     </div>
-    <button @click="validateMonsters">Valider</button>
+    <button class="validBtn" @click="validateMonsters">Valider</button>
 </template>
 
 <script>
@@ -32,5 +32,38 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+.contentAddMonster{
+    position : absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    width: 100vw;
+}
+
+.validBtn{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--var-color2);
+    box-shadow: inset 0 0 1rem var(--var-color1);
+    border: none;
+    color: var(--var-color4);
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.validBtn:hover{
+    box-shadow:  0 0 4px 0 var(--var-color1);;
+}
+
 </style>
