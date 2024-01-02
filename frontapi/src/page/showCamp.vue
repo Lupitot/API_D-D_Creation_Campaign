@@ -5,13 +5,9 @@
       <button @click="redirectProfil()">Profil</button>
       <button @click="redirectCreationCamp()">Créer une campagne</button>
     </div>
-    <div class="titre">les campagnes</div>
-    <div class="contentPage">
-      
-      <div class="showAllCamp">
-        <showAllCamp />
-      </div>
-    </div>
+    <h2 class="titre">Les Campagnes</h2>
+
+    <showAllCamp />
   </div>
 </template>
 
@@ -60,11 +56,13 @@ export default {
 }
 
 .titre {
-    position: absolute;
+  position: absolute;
   top: 1rem;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 3rem;
 }
 
 .contentPage {
@@ -76,17 +74,5 @@ export default {
   width: 90%;
   height: 80%;
   gap: 1.5rem;
-}   
-
-.showAllCamp {
-    position: absolute;
-  width: 80%;
-  height: 50%;
-  overflow-y: scroll;
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 </style>

@@ -1,21 +1,21 @@
 <template>
-  <div>
+  <div class="infoUser">
     {{ name }}
-    <button @click="nameModif = true">modiName</button>
-    <input v-if="nameModif" type="text" v-model="newName" />
-    <button v-if="nameModif" @click="modifyProfil('name', newName)">
+    <button class="modif" @click="nameModif = true">modiName</button>
+    <input class="inputModif" v-if="nameModif" type="text" v-model="newName" />
+    <button class="modif" v-if="nameModif" @click="modifyProfil('name', newName)">
       Submit
     </button>
 
     {{ email }}
-    <button @click="emailModif = true">modiEmail</button>
-    <input v-if="emailModif" type="text" v-model="newEmail" />
-    <button v-if="emailModif" @click="modifyProfil('email', newEmail)">
+    <button class="modif" @click="emailModif = true">modiEmail</button>
+    <input class="inputModif" v-if="emailModif" type="text" v-model="newEmail" />
+    <button class="modif" v-if="emailModif" @click="modifyProfil('email', newEmail)">
       Submit
     </button>
   </div>
 
-  <button @click="this.$router.push('/showCamp')">
+  <button class="btnShow" @click="this.$router.push('/showCamp')">
     Voir toutes les campagnes
   </button>
 </template>
@@ -77,4 +77,81 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+
+.infoUser {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: auto;
+  width: auto;
+
+
+  gap: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+
+.btnShow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  left : 3rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--var-color2);
+  color: var(--var-color4);
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+
+
+.btnShow:hover {
+  background-color: #4d84ecb3;
+  box-shadow: inset 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  color: var(--var-color4);
+}
+
+.modif {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--var-color2);
+  color: var(--var-color4);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.inputModif {
+  width: 20rem;
+  height: 3.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+  box-direction: none;
+  border: 1px solid rgba(88, 88, 88, 0.901);
+  box-shadow: inset 0px 0px 2px 0px var(--var-color2);
+}
+
+
+
+</style>

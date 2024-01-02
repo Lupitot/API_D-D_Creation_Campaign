@@ -8,7 +8,7 @@
   </template>
   
   <script>
-  import { showCamp } from "@/services/showService";
+  import { showOneCamp } from "@/services/showOneCampService";
   import { removeMonster } from "@/services/supMonsterService";
   
   export default {
@@ -21,10 +21,10 @@
     },
     created() {
       const idCamp = localStorage.getItem("currentCampId");
-      showCamp(idCamp)
+      showOneCamp(idCamp)
         .then((data) => {
           console.log("data : ", data);
-          const camp = data.data[0];
+          const camp = data.data;
           this.monster_name = camp.monster_name;
           this.monster_list = camp.monster_list;
         })
