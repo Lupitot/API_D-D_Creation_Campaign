@@ -3,7 +3,7 @@
 ## Lien : ##
 https://front-campaign-dandd-srz4.onrender.com
 
-## fonctionnalité ##
+## Fonctionnalité ##
 - Ajout de campagne avec plusieur information, dont des monstre qui font appel a cet api : https://api.open5e.com/v1/monsters/
 - Creation de compte
 - Gestion de son profil
